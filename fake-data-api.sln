@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fake-data-api", "fake-data-api\fake-data-api.csproj", "{CF9BD63F-8453-422D-8D6F-92A766C38C0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF9BD63F-8453-422D-8D6F-92A766C38C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9BD63F-8453-422D-8D6F-92A766C38C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9BD63F-8453-422D-8D6F-92A766C38C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9BD63F-8453-422D-8D6F-92A766C38C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {579DE277-9A64-41C3-AC91-8F690BEC9230}
+	EndGlobalSection
+EndGlobal
