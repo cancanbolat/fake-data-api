@@ -5,6 +5,6 @@
 - localhost/api/users => **Using [Genfu](https://github.com/MisterJames/GenFu)**
 - localhost/api/users/(count) => **Using [Bogus](https://github.com/bchavez/Bogus)**
 ---
-### Screenhosts
+### Screenshots
 <img src="screenshots/api-1.png"/>
 <img src="screenshots/api-2.png"/>
