@@ -20,12 +20,22 @@ namespace fake_data_api
             Configuration = configuration;
         }
 
+        readonly string Origins = "_Origins";
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            #region CORS
+            services.AddCors(options =>
+            {
+                options.AddPolicy(
+                    name: Origins,
+                    builder => { builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); });
+            });
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +49,8 @@ namespace fake_data_api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(Origins);
 
             app.UseAuthorization();
 
